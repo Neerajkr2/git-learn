@@ -1,0 +1,24 @@
+/* styles.css */
+
+body {
+  /* Gradient background from purple to teal */
+  background: linear-gradient(to right, #6a3093, #a044ff, #5f72bd, #49a09d);
+
+  /* Set clean and modern font */
+  font-family: Arial, sans-serif;
+
+  /* White text color for better contrast */
+  color: white;
+
+  /* Remove default margins and padding */
+  margin: 0;
+  padding: 0;
+
+  /* Use Flexbox for centering content */
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+
+  /* Make the body take full viewport height */
+  height: 100vh;
+}
